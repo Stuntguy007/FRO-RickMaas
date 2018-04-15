@@ -1,0 +1,50 @@
+body{
+  background-color: blue;
+  text-align: center;
+  background-image: url(DodgeCharger69.png);
+  background-size: 100%;
+}
+
+.wrapper{
+  width: 60%;
+  margin: auto;
+  border: 10px solid #434370;
+  border-radius: 10px;
+  background-color: white;
+  }
+
+#mijnEvaluatie {
+  position:fixed;
+  left: 40%;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+h1 {
+  font-size: 45px;
+  color: rgb(45, 21, 244);
+  text-shadow: 3px 3px black;
+}
+
+#mijnOpgave {
+  font-size: 30px;
+  color: blue;
+  text-shadow: 3px 3px black;
+}
+
+input[type=text] {
+    width: 110px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: repeat;
+    padding: 10px 10px 11px 30px;
+}
+
+input[type=text]:focus {
+    width: 25%;
+}
